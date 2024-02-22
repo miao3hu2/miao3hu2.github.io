@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-icon: fas fa-atom
+icon: fas fa-microscope
 order: 1
 ---
 

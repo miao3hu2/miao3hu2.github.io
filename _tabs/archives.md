@@ -1,5 +1,5 @@
 ---
-layout: archives
+layout: categories
 icon: fas fa-archive
-order: 6
+order: 5
 ---
