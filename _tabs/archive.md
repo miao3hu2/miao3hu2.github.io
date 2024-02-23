@@ -1,5 +1,5 @@
 ---
 layout: categories
-icon: fas fa-folder-open
+icon: fas fa-archive
 order: 5
 ---
