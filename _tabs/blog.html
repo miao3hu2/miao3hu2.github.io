@@ -10,19 +10,7 @@ order: 3
 {% assign pinned = site.posts | where: 'pin', 'true' %}
 {% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 
-{% assign posts = '' | split: '' %}
-
-<!-- Get pinned posts -->
-
-{% for i in pinned %}
-  {% assign posts = posts | push: i %}
-{% endfor %}
-
-<!-- Get default posts -->
-
-{% for i in default %}
-  {% assign posts = posts | push: i %}
-{% endfor %}
+{% assign posts = pinned | concat: default %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
