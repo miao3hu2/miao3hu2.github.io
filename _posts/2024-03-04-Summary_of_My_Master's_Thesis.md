@@ -5,7 +5,7 @@ tags: [summary, thesis]
 math: true
 ---
 
-Research in quantum information is guided by the goal of fully exploring and exploiting a phenomenon in quantum systems --- entanglement. This phenomenon is, by definition, said to exist in a multi-party (or global) quantum system whenever the state of the system is not separable, i.e. it cannot be described by a collection of states each belonging to a member (or local) system, and it is very beneficial for many quantum technologies to have a protocol that can probe and characterize entanglement in a quantum system. Randomized measurements give such a protocol that draws favorable attention as it has the advantage of being able to be processed purely in a local manner. More explicitly, people have shown, for example at [here](http://arxiv.org/abs/1808.06558), [here](http://arxiv.org/abs/1910.10732), and [here](http://arxiv.org/abs/1605.08529), that one can measure and quantify, to some extent, entanglement in a global system by repeating the measurement of a local observable on a random basis.  
+Research in quantum information is guided by the goal of fully exploring and exploiting a phenomenon in quantum systems --- entanglement. This phenomenon is, by definition, said to exist in a multi-party (or global) quantum system whenever the state of the system is not separable, i.e. it cannot be described by a collection of states each belonging to a member (or local) system, and it is very beneficial for many quantum technologies to have a protocol that can probe and characterize entanglement in a quantum system. Randomized measurements give such a protocol that draws favorable attention as it has the advantage of being able to be processed purely in a local manner. More explicitly, people have shown, for example at [here](https://arxiv.org/abs/1808.06558), [here](https://arxiv.org/abs/1910.10732), and [here](https://arxiv.org/abs/1605.08529), that one can measure and quantify, to some extent, entanglement in a global system by repeating the measurement of a local observable on a random basis.  
 
 It is worth mentioning that a dataset obtained from randomized measurements can be naturally analyzed using random tensor theory and graph theory. To put things clearer, we consider a global system $$\mathcal{H}$$ consisting of $$D$$ local systems $$\{\mathcal{H}_c\}_{c=1,\cdots, D}$$, i.e. $$\mathcal{H}=\bigotimes_{c=1}^D\mathcal{H}_c$$. Then such a dataset is a distribution of a random variable $$X$$ with the following structure 
 $$
@@ -24,7 +24,7 @@ $$
   \langle X^n \rangle = \int\prod_{c=1}^DdU_c\,[\mathrm{Tr}(AU\rho U^{\dagger})]^n
 \end{equation}
 $$
-where $$dU_c$$ is the Haar measure and hence the analysis of these moments falls naturally into the theory of random tensors as presented in [this paper](http://arxiv.org/abs/2201.12778). 
+where $$dU_c$$ is the Haar measure and hence the analysis of these moments falls naturally into the theory of random tensors as presented in [this paper](https://arxiv.org/abs/2201.12778). 
 
 The motivation for the work in my master's thesis is to clarify the "to some extent" part of the aforementioned comment on the relation between randomized measurements and entanglement detection. With the toolbox from random tensor theory and graph theory, this goal becomes achievable, starting with the question --- can we relate the moments of the distribution from randomized measurements with the amount and form of entanglement in a system at a state of general interest in quantum information?
 
