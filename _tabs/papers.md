@@ -5,6 +5,10 @@ order: 2
 ---
 ## Conference proceedings
 
+- **Predicting internal microwave Mie resonances in aqueous spheroids with a standing-wave approach**
+  \[SPIE OPTO (2024), [DOI](https://doi.org/10.1117/12.3000578)\]
+  with Yuchen Song and Aaron D. Slepkov
+
 - **A standing-wave approach to mapping key photonic microwave resonances in aqueous spheroids**  
   \[CLEO (2023), [DOI](https://doi.org/10.1364/CLEO_FS.2023.FW3C.2)\]  
   with Yuchen Song and Aaron D. Slepkov
