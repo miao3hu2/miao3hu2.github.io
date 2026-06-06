@@ -16,7 +16,7 @@ math: true
 In the [last session](https://gulatiaabhas.github.io/qcryptintoulouse/quantum-crypto/session-3-qkd.html), we have learned the BB84 quantum key distribution protocol, proposed by **B**ennett and **B**rassard in 19**84**. This protocol has an equivalent version, given below:
 
 > **Protocol 1** -- Purified BB84
-> 1. Alice prepares $N$ EPR pairs $\phi$ $|\phi^{+}\rangle$ and sends the second qubit of each pair to Bob. 
+> 1. Alice prepares $N$ EPR pairs $|\phi^{+}\rangle$ and sends the second qubit of each pair to Bob. 
 > 2. Alice chooses a uniformly random basis string $\theta=\theta_1\dots \theta_N \in \{0, 1\}^N$, and measures each of her qubits in the $Z(\theta_i=0)$ or $X(\theta_i=1)$ basis to obtain a string $x=x_1\dots x_N\in\{0, 1\}^N$.
 > 3. Bob chooses a uniformly random basis string $\tilde{\theta}=\tilde{\theta}_1\dots\tilde{\theta}_N\in\{0, 1\}^N$, and measures each of his qubit in the $Z(\tilde{\theta}_i=0)$ or $X(\tilde{\theta}_i=1)$ basis to obtain a string $\tilde{x}=\tilde{x}_1\dots\tilde{x}_N\in\{0, 1\}^N$.
 > 4. Alice and Bob exchange their basis strings $\theta, \tilde{\theta}$ over Classical Authenticated Channel (CAC).
